@@ -23,7 +23,7 @@ public class SpringMessageSource {
         ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
         Shape shape=(Shape)context.getBean("circleId");
         shape.draw();
-        //System.out.println(context.getMessage("greeting", null, "Default greeting", Locale.CANADA));
+        System.out.println("In Main: "+context.getMessage("greeting", null, "Default greeting", Locale.CANADA));
     }
     
 }
