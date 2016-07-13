@@ -41,7 +41,11 @@ public class Circle implements Shape{
         System.out.println(this.messageSource.getMessage("greeting", null, "Default greeting", Locale.CANADA));
         System.out.println(this.messageSource.getMessage("drawing.circle", null, "Default greeting", Locale.CANADA));
         System.out.println(this.messageSource.getMessage("drawing.point", new Object[]{center.getX(), center.getY()}, "Default point greeting", Locale.CANADA));
-        System.out.println(this.messageSource.getMessage("nikolay", null, Locale.CANADA));
+        System.out.println(this.messageSource.getMessage("alban", null, "Default greeting", Locale.CANADA));
+        System.out.println(this.messageSource.getMessage("vasyl", null, "Default greeting", Locale.CANADA));
+        System.out.println(this.messageSource.getMessage("asad", null, "Default greeting", Locale.CANADA));
+        System.out.println(this.messageSource.getMessage("mathieu", null, "Default name", Locale.CANADA));
+        System.out.println(this.messageSource.getMessage("iurii", null, "Default greeting", Locale.CANADA));
     }
     
 }
