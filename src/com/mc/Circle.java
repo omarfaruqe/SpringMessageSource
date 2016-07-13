@@ -43,6 +43,7 @@ public class Circle implements Shape{
         System.out.println(this.messageSource.getMessage("drawing.point", new Object[]{center.getX(), center.getY()}, "Default point greeting", Locale.CANADA));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         System.out.println(this.messageSource.getMessage("alban", null, "Default greeting", Locale.CANADA));
 =======
         
@@ -52,6 +53,9 @@ public class Circle implements Shape{
         
         System.out.println(this.messageSource.getMessage("asad", null, "Default greeting", Locale.CANADA));
 >>>>>>> origin/Asadkhalid_Msg
+=======
+        System.out.println(this.messageSource.getMessage("mathieu", null, "Default name", Locale.CANADA));
+>>>>>>> origin/Legault_test
     }
     
 }
